@@ -26,9 +26,15 @@ On a machine that only takes work from your Hive, install the small program
 brew install lamplitlabs/tap/hivefleet-hand
 ```
 
-The formulae are for macOS and Linux, on arm64 and x86_64. Nothing is built
-on your machine: Homebrew downloads the archive of the release and checks it
-against the SHA-256 written in the formula.
+The formulae are for macOS and Linux, on arm64 and x86_64. The Linux that
+WSL runs on Windows is one of them
+([Run Hive on Windows](https://hivefleet.dev/docs/how-to/windows/)). Nothing
+is built on your machine: Homebrew downloads the archive of the release and
+checks it against the SHA-256 written in the formula.
+
+On Linux, Homebrew 7.0 can end the install of a second formula from this tap
+with `Broken pipe`. Run the same line again
+([Homebrew](https://hivefleet.dev/docs/release/#homebrew) has what was seen).
 
 ## Upgrade
 
