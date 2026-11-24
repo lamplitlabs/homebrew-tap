@@ -1,5 +1,5 @@
 # Written by scripts/brew-formula.sh in https://github.com/lamplitlabs/hive
-# from the SHA256SUMS of the release v0.1.6. The next release writes this file
+# from the SHA256SUMS of the release v0.1.7. The next release writes this file
 # again, so a change made here by hand is lost: change the script.
 class HivefleetHand < Formula
   desc "Small program a machine runs to take work from a Hive on another machine"
@@ -8,23 +8,23 @@ class HivefleetHand < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.6/hand-v0.1.6-aarch64-apple-darwin.tar.gz"
-      sha256 "5abfd8b07a8d03bf22cf592a0840da0e15522bb3ac0c41596f0b25aa771e2e2f"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hand-v0.1.7-aarch64-apple-darwin.tar.gz"
+      sha256 "297081a558d8306a1473770c85b930f2277be31f26afa526c39e0fde729e7730"
     end
     on_intel do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.6/hand-v0.1.6-x86_64-apple-darwin.tar.gz"
-      sha256 "152ba48951e54001567387596c6897fe2aa9b794bcc8328615e3f55a2a148452"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hand-v0.1.7-x86_64-apple-darwin.tar.gz"
+      sha256 "59dbe7b6202f3dfddae0550047125879dbd1a8e5384b6fddaf5702bb1b98f211"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.6/hand-v0.1.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2145deb083eb9bbf2c06447d50e830b2a95c29f6e873e522462393a9cfcc53e9"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hand-v0.1.7-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "13d049f7428ee2f987a8c27c8c1dce7df5e78e8cf60441869050bb242bfc75e8"
     end
     on_intel do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.6/hand-v0.1.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3102bf0d5168196573d09104c89b497eb7a22cb000e411619e1983ab9dd92a2b"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hand-v0.1.7-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4ab5ba723b5895aca6591e88d532b1b0ce50998e185e28cb855f835494d091aa"
     end
   end
 
