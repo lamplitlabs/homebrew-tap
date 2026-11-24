@@ -1,5 +1,5 @@
 # Written by scripts/brew-formula.sh in https://github.com/lamplitlabs/hive
-# from the SHA256SUMS of the release v0.1.7. The next release writes this file
+# from the SHA256SUMS of the release v0.1.8. The next release writes this file
 # again, so a change made here by hand is lost: change the script.
 class Hivefleet < Formula
   desc "Self-improving harness for coding agents that runs on your own machines"
@@ -8,23 +8,23 @@ class Hivefleet < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hive-v0.1.7-aarch64-apple-darwin.tar.gz"
-      sha256 "2e528679110fe2373354ba8ea78a3df3fb9fa351bd4ea92c116ad883d857fa06"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.8/hive-v0.1.8-aarch64-apple-darwin.tar.gz"
+      sha256 "3680a8ba9d3852b997d6ca32d72da57b95cdea388de938399efd5209a79a913a"
     end
     on_intel do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hive-v0.1.7-x86_64-apple-darwin.tar.gz"
-      sha256 "50403b36d380ff5bee1f27f9c3a06318c9b41d5587928e81d885a56c290bf965"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.8/hive-v0.1.8-x86_64-apple-darwin.tar.gz"
+      sha256 "63788695d109662736da9fbf97ce085906ab8bf34d6e850ab110189e057eaaa1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hive-v0.1.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e14e25aa6d8a51d725d6139f0975d2e876367f9e51fe14caf35d5b514f0eec1c"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.8/hive-v0.1.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dce9485b343225ad5cdd5f892940ca2890149b404c76440bde6a2a2008e87e13"
     end
     on_intel do
-      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.7/hive-v0.1.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "32be7020c2d35e82a0a0dea9cd197f87161010cb7052e4de665597cc2283a80f"
+      url "https://github.com/lamplitlabs/hive/releases/download/v0.1.8/hive-v0.1.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0955e306add8132081f5b94ffd1570c44b7b67ea404e9978b8748b744b2747b3"
     end
   end
 
